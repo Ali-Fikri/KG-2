@@ -122,12 +122,12 @@ body::after {
 }
 
 .button {
-  background-color: #f27a2c;
+  background-color: #00ccff;
   display: flex;
   justify-content: center;
   align-items: center;
-  box-shadow: #e089b0 0px 7px 29px 0px;
-  border: #f27a2c solid 5px;
+  box-shadow: #72d8f1 0px 7px 29px 0px;
+  border: #00ccff solid 5px;
   border-radius: 50%;
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;

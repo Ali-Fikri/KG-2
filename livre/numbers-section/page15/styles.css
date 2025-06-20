@@ -1,0 +1,63 @@
+.board {
+  padding: 1rem 2rem;
+  background: url(../../../imgs/layout.png) no-repeat center center/ cover;
+  border: 0.625rem solid #00ccff;
+  background-color: white;
+  border-radius: 2rem;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+}
+
+header h1,
+h2 {
+  margin: 4px;
+  font-size: 2rem;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #ec5339;
+  text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.2);
+  -webkit-text-stroke: 1px white;
+}
+
+.numbers-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  padding: 4rem;
+}
+
+.numbers-box {
+  display: flex;
+  flex-wrap: wrap;
+  & .number {
+    & img {
+      max-width: 100%;
+      height: auto;
+      border-radius: 15%;
+      -webkit-border-radius: 15%;
+      -moz-border-radius: 15%;
+      -ms-border-radius: 15%;
+      -o-border-radius: 15%;
+    }
+  }
+  & .card {
+    flex: 1 1 calc(20% - 1rem);
+    margin: 0.5rem;
+  }
+
+  & .digit {
+    flex: 1 1 calc(9% - 1rem);
+    margin: 0.2rem;
+  }
+}
+
+.number:hover {
+  transform: scale(1.1);
+}
