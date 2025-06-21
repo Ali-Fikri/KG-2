@@ -172,6 +172,23 @@ body::after {
   margin-top: 1.875rem;
 }
 
+.section-title {
+  position: absolute;
+  top: 6%;
+  left: 53%;
+  transform: translateX(-50%);
+
+  & h1 {
+    font-size: 2.5rem;
+    color: #ec5339;
+  }
+  & h2 {
+    font-size: 1.5rem;
+    margin-top: 1rem;
+    color: #d2232b;
+  }
+}
+
 .inner-letter-container {
   height: 100%;
   display: flex;

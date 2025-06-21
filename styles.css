@@ -149,7 +149,7 @@ audio {
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: #e2302b;
+  background-color: #00ccff;
   transition: all 1s;
   z-index: -1;
   transform: translateX(-100%);
@@ -163,13 +163,13 @@ audio {
   -o-transform: translateX(0);
 }
 .home-button:hover {
-  border-color: #e2302b;
+  border-color: #00ccff;
 }
 
 /* From Uiverse.io by marcelodolza */
 .button {
   --white: #000000;
-  --bg: #e2302b;
+  --bg: #00ccff;
   --radius: 100px;
   outline: none;
   cursor: pointer;
