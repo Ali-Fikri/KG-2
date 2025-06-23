@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Mes lettres de l'alphabet</title>
+    <link rel="stylesheet" href="./styles.css" />
+    <link rel="stylesheet" href="../../master.css" />
+  </head>
+  <body>
+    <div class="page">
+      <section class="board">
+        <div class="content">
+          <div class="title-section">
+            <img
+              src="../../imgs/speaker.png"
+              alt="icon"
+              style="width: 4rem; margin-right: 1rem" />
+            <h2 class="title">
+              Écoute le dialouge et choisis la bonne réponse :-
+            </h2>
+          </div>
+          <div class="question-container">
+            <div class="question">
+              <div class="text">1- Elle s’appelle ..............</div>
+            </div>
+            <div class="choices">
+              (
+              <p class="choice" isCorrect="false">Jad</p>
+              -
+              <p class="choice" isCorrect="true">Caroline</p>
+              -
+              <p class="choice" isCorrect="false">Ali</p>
+              )
+            </div>
+          </div>
+          <div class="question-container">
+            <div class="question">
+              <div class="text">2- Elle dit ça va ..........</div>
+            </div>
+            <div class="choices">
+              (<img
+                class="choice"
+                src="./imgs/2-1.png"
+                alt=""
+                isCorrect="false" />-
+              <img
+                class="choice"
+                src="./imgs/2-2.png"
+                alt=""
+                isCorrect="true" />
+              )
+            </div>
+          </div>
+          <div class="question-container">
+            <div class="question">
+              <div class="text">
+                3- Elle a ............. ans.
+                <img src="./imgs/3.png" alt="cake" />
+              </div>
+            </div>
+            <div class="choices">
+              (
+              <p class="choice" isCorrect="true">3</p>
+              -
+              <p class="choice" isCorrect="false">1</p>
+              -
+              <p class="choice" isCorrect="false">10</p>
+              )
+            </div>
+          </div>
+          <div class="question-container">
+            <div class="question">
+              <div class="text">4- Elle va à l’école en ...............</div>
+            </div>
+            <div class="choices">
+              (<img
+                class="choice"
+                src="./imgs/4-1.png"
+                alt=""
+                isCorrect="false" />-
+              <img
+                class="choice"
+                src="./imgs/4-2.png"
+                alt=""
+                isCorrect="true" />-
+              <img
+                class="choice"
+                src="./imgs/4-3.png"
+                alt=""
+                isCorrect="false" />
+              )
+            </div>
+          </div>
+          <div class="question-container">
+            <div class="question">
+              <div class="text">5- Dans le sac il y a une .......</div>
+            </div>
+            <div class="choices">
+              (<img
+                class="choice"
+                src="./imgs/5-1.png"
+                alt=""
+                isCorrect="false" />-
+              <img
+                class="choice"
+                src="./imgs/5-2.png"
+                alt=""
+                isCorrect="true" />-
+              <img
+                class="choice"
+                src="./imgs/5-3.png"
+                alt=""
+                isCorrect="false" />
+              )
+            </div>
+          </div>
+        </div>
+
+        <audio
+          id="clapSound"
+          src="../../sounds/clap.mp3"
+          preload="auto"></audio>
+        <audio
+          id="inCorrectSound"
+          src="../../sounds/incorrect.mp3"
+          preload="auto"></audio>
+      </section>
+
+      <footer>
+        <div class="navigation">
+          <a href="../page55/index.html" class="button">
+            <div class="openai-logo">
+              <img src="../../imgs/previous.png" alt="previous" />
+            </div>
+          </a>
+          <a href="../../index.html" class="home-btn">
+            <img src="../../imgs/home.png" width="130" alt="Home" />
+          </a>
+        </div>
+      </footer>
+    </div>
+
+    <script src="./script.js"></script>
+    <script src="../../master.js"></script>
+  </body>
+</html>
