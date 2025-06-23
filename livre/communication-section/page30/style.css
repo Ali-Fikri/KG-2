@@ -1,6 +1,6 @@
 .board {
   position: relative;
-
+  background: url("../../../imgs/title-layout.png") no-repeat center center;
   background-size: cover;
   background-color: white;
   width: 100%;
