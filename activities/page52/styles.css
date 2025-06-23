@@ -17,7 +17,7 @@
   gap: 1rem;
 }
 
-@media (max-width: 1700px) {
+@media (max-width: 981px) {
   .board {
     height: 80rem;
   }
