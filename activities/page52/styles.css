@@ -17,6 +17,12 @@
   gap: 1rem;
 }
 
+@media (max-width: 1700px) {
+  .board {
+    height: 80rem;
+  }
+}
+
 .content {
   width: 100%;
 }
