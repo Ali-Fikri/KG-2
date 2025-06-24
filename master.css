@@ -243,14 +243,6 @@ body::after {
   font-family: customletter;
 }
 
-/* .first-letter {
-  opacity: 50%;
-}
-
-.second-letter {
-  opacity: 20%;
-} */
-
 @media (max-width: 1024px) {
   .background {
     height: auto;
@@ -311,18 +303,6 @@ body::after {
   .third-row {
     justify-content: space-evenly;
   }
-
-  /* .question {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 1rem;
-    font-size: 4rem;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
-    transition: box-shadow 0.3s;
-  } */
 
   .sentence {
     width: 100%;
