@@ -17,6 +17,10 @@
   gap: 1rem;
 }
 
+.images-container {
+  margin-top: 5rem;
+}
+
 .images-container img {
   width: 8rem;
   transition: transform 0.5s;

@@ -1,8 +1,6 @@
-
-
 .board {
   position: relative;
-  background: url("../../imgs/title-layout.png") no-repeat center center;
+  background: url("../../../imgs/title-layout.png") no-repeat center center;
   background-size: cover;
   background-color: white;
   width: 100%;
@@ -18,23 +16,35 @@
   gap: 1rem;
 }
 
-@media (max-width: 767px) {
+/* @media (max-width: 767px) {
   .board {
     padding: 2rem;
   }
-}
+} */
 
 .images-container {
   padding-top: 4rem;
   width: 100%;
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 
 .images-container img {
-  width: 400px;
+  width: 13rem;
   height: auto;
+}
+
+.left {
+  position: relative;
+}
+
+#box {
+  position: absolute;
+  width: 12rem;
+  height: auto;
+  bottom: 0%;
+  left: -45%;
 }
 
 .images-container img:hover {
