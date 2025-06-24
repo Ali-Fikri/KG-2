@@ -20,7 +20,7 @@
 .images-container {
   & img {
     position: absolute;
-    width: 35rem;
+    width: 10rem;
     transition: transform 0.5s;
     -webkit-transition: transform 0.5s;
     -moz-transition: transform 0.5s;
@@ -37,26 +37,27 @@
   }
 }
 #crayon {
-  top: 0%;
-  left: -4%;
+  top: 20%;
+  left: 15%;
 }
 #cartable {
-  top: 5%;
-  right: 3%;
+  top: 23%;
+  right: 19%;
 }
 #couleurs {
-  bottom: 0%;
-  right: 25%;
+  width: 16rem;
+  bottom: 27%;
+  right: 37%;
 }
 #gomme {
-  bottom: -13%;
-  left: -12%;
+  bottom: 10%;
+  left: 10%;
 }
 #livre {
-  bottom: -15%;
-  right: 0%;
+  bottom: 15%;
+  right: 15%;
 }
 #dinasour {
-  top: -6%;
-  right: -10%;
+  top: 10%;
+  right: 5%;
 }
