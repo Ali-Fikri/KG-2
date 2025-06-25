@@ -12,8 +12,7 @@
   box-shadow: #72d8f1 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
   display: flex;
   align-items: center;
-  justify-content: end;
-  flex-direction: column;
+  justify-content: center;
   gap: 1rem;
 }
 
@@ -26,8 +25,7 @@
 
 .images-container .box {
   display: flex;
-  flex-direction: column;
-  gap: 2rem;
+  gap: 3rem;
   padding: 2rem;
   border: 2px solid;
   border-style: dashed;
@@ -52,7 +50,7 @@
 }
 
 .images-container img {
-  width: 12rem;
+  width: 17rem;
   transition: transform 0.5s;
   -webkit-transition: transform 0.5s;
   -moz-transition: transform 0.5s;
