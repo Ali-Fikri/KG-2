@@ -26,6 +26,7 @@
 
 .title-section {
   position: relative;
+  font-size: 1.5rem;
   color: white;
   display: flex;
   align-items: center;
