@@ -23,7 +23,7 @@
 
 .title-section {
   position: relative;
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   color: white;
   display: flex;
   align-items: center;
@@ -55,8 +55,8 @@
   justify-content: space-around;
 }
 
-.question img {
-  width: 8rem;
+.question .letter {
+  font-size: 8rem;
 }
 
 .row {
@@ -66,28 +66,33 @@
   justify-content: space-around;
 }
 
-.row div {
+.input {
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
-  gap: 0.5rem;
+  gap: 1rem;
 }
 
 .row img {
-  width: 6rem;
+  width: 11rem;
 }
 
-.input {
-  height: 6rem;
-  width: 6rem;
+.box {
+  height: 7rem;
+  width: 7rem;
   border: 3px solid #00aced;
   text-align: center;
-  font-size: 4rem;
+  font-size: 6rem;
   border-radius: 1rem;
   -webkit-border-radius: 1rem;
   -moz-border-radius: 1rem;
   -ms-border-radius: 1rem;
   -o-border-radius: 1rem;
+}
+
+.invisible {
+  display: none;
 }
 
 /* Shake animation */
