@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Mes lettres de l'alphabet</title>
+    <link rel="stylesheet" href="./styles.css" />
+    <link rel="stylesheet" href="../../master.css" />
+  </head>
+  <body>
+    <div class="page">
+      <section class="board">
+        <div class="content">
+          <div class="question-container">
+            <div
+              class="title-section"
+              data-type="file"
+              data-audio="./sounds/title.mp3">
+              <img src="../../imgs/activity-icon.png" alt="icon" />
+              <h2 class="title">Compte et écris les chiffres !</h2>
+            </div>
+            <div class="question">
+              <img src="./imgs/1-4.png" alt="banana" />
+              <img src="./imgs/1-3.png" alt="kiwe" />
+              <img src="./imgs/1-4.png" alt="banana" />
+              <img src="./imgs/1-4.png" alt="banana" />
+              <img src="./imgs/1-2.png" alt="orange" />
+            </div>
+            <div class="question">
+              <img src="./imgs/1-3.png" alt="kiwe" />
+              <img src="./imgs/1-4.png" alt="banana" />
+              <img src="./imgs/1-2.png" alt="orange" />
+              <img src="./imgs/1-3.png" alt="kiwe" />
+            </div>
+          </div>
+          <br />
+          <div class="answer-container">
+            <div class="row">
+              <div>
+                <img src="./imgs/1-3.png" alt="kiwe" /><input
+                  type="number"
+                  answer="3"
+                  class="input" />
+              </div>
+              <div>
+                <img src="./imgs/1-4.png" alt="banana" /><input
+                  type="number"
+                  answer="4"
+                  class="input" />
+              </div>
+              <div>
+                <img src="./imgs/1-2.png" alt="orange" /><input
+                  type="number"
+                  answer="2"
+                  class="input" />
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <audio
+          id="clapSound"
+          src="../../sounds/clap.mp3"
+          preload="auto"></audio>
+        <audio
+          id="inCorrectSound"
+          src="../../sounds/incorrect.mp3"
+          preload="auto"></audio>
+      </section>
+
+      <footer>
+        <div class="navigation">
+          <a href="../../index.html" class="home-btn">
+            <img src="../../imgs/home.png" width="130" alt="Home" />
+          </a>
+
+          <a href="../page52/index.html" class="button">
+            <div class="openai-logo">
+              <img src="../../imgs/next.png" alt="next" />
+            </div>
+          </a>
+        </div>
+      </footer>
+    </div>
+
+    <script src="./script.js"></script>
+    <script src="../../master.js"></script>
+  </body>
+</html>
